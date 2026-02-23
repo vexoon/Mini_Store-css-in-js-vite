@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <StyledWrapper>
       <button className="button">
-        <span className="label">+ Add to card</span>
+        <span className="label">+ Add to cart</span>
         <span className="gradient-container">
           <span className="gradient" />
         </span>
@@ -20,7 +20,7 @@ const StyledWrapper = styled.div`
     outline: none;
     background-color: #3a3a3a;
     width: 180px;
-    height: 60px;
+    height: 55px;
     font-size: 18px;
     color: #fff;
     font-weight: 600;

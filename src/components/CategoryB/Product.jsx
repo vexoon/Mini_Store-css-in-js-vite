@@ -11,18 +11,20 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 420px;
+
   &:hover {
     transform: translateY(-6px);
   }
 `;
 
 const Image = styled.img`
-  width: 100%;
+  width: 90%;
   height: 220px;
   object-fit: contain;
-  background: #f0f0f0;
+  background: #fafafa;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin: 15px 0;
 `;
 
 const Content = styled.div`
@@ -35,10 +37,11 @@ const Content = styled.div`
 `;
 
 const Title = styled.h3`
-   color: #111;
-  font-size: 1rem;
+  color: #111;
+  font-size: 0.95rem;
   font-weight: 600;
   margin: 0 0 8px 0;
+  text-align: center;
 `;
 
 const Price = styled.p`
@@ -49,7 +52,9 @@ const Price = styled.p`
 `;
 const ButtonWrapper = styled.div`
   margin-top: auto;
+  display: flex;
   justify-content: center;
+  width: 100%;
 `;
 
 export default function Product(props) {
